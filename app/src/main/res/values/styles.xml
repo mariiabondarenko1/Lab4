@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="myTextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@color/colorTextView</item>
+        <item name="android:textColor">@color/design_default_color_on_secondary</item>
+
+    </style>
+
+</resources>

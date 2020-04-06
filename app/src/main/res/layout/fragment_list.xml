@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="7dp">
+    <TextView
+            android:id="@+id/googleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/myTextView"
+            android:text="Google"/>
+    <TextView
+            style="@style/myTextView"
+            android:id="@+id/facebookTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facebook"/>
+    <TextView
+            style="@style/myTextView"
+            android:id="@+id/twitterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Twitter"/>
+    <TextView
+            style="@style/myTextView"
+            android:id="@+id/xda-developerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xda-developer"/>
+
+</LinearLayout>
